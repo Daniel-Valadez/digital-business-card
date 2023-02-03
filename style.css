@@ -16,8 +16,8 @@ body {
 
 .container-inner {
     background-color: #1a1b21;
-    width: 50%;
     border-radius: 0.5rem;
+    max-width: 50%;
 }
 
 .profile-picture {
@@ -58,18 +58,18 @@ button {
     border-radius: 0.5rem;
 }
 
-button a{
+button a {
     text-decoration: none;
     color: black;
-    vertical-align: middle; 
+    vertical-align: middle;
 }
 
 button a > * {
     vertical-align: middle;
 }
 
-button span{
-    font-size: .8rem;
+button span {
+    font-size: 0.8rem;
 }
 
 button:hover {
@@ -77,3 +77,24 @@ button:hover {
     background-color: #f3bf99;
     transition: 0.3s;
 }
+
+.about,
+.interests {
+    margin: 0 2rem;
+    text-align: left;
+}
+
+.about > h3,
+.interests > h3 {
+    font-size: 1rem;
+    margin-bottom: .5rem;
+}
+
+.about > p, 
+.interests > p{
+    margin: 0; 
+    font-size: 0.65rem;
+    font-weight: lighter;
+    line-height: 1rem;
+}
+
