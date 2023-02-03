@@ -1,21 +1,79 @@
-body{
+body {
+    font-family: Inter, sans-serif;
+    text-align: center;
     padding: 0;
-    margin: 0; 
+    margin: 0;
+    color: #ffffff;
 }
 
-.container{
-    background-color: #23252C;
+.container {
+    background-color: #23252c;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.container-inner{
-    background-color: #1A1B21;
-    width: 50%; 
+.container-inner {
+    background-color: #1a1b21;
+    width: 50%;
+    border-radius: 0.5rem;
 }
 
-h1{
-    margin: 0; 
+.profile-picture {
+    border-top-right-radius: 0.5rem;
+    border-top-left-radius: 0.5rem;
+    max-width: 100%;
+}
+.fullname {
+    margin-bottom: 0;
+}
+.job-title {
+    margin: 0;
+    font-size: 0.75rem;
+    font-weight: lighter;
+    color: #f3bf99;
+    letter-spacing: 0.075rem;
+}
+
+.website-link {
+    margin-top: 0.5rem;
+    font-weight: lighter;
+}
+
+.website-link a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.website-link a:hover {
+    color: #f3bf99;
+    transition: 0.3s;
+}
+
+button {
+    width: 75%;
+    max-width: 75%;
+    height: 2.256rem;
+    border-radius: 0.5rem;
+}
+
+button a{
+    text-decoration: none;
+    color: black;
+    vertical-align: middle; 
+}
+
+button a > * {
+    vertical-align: middle;
+}
+
+button span{
+    font-size: .8rem;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #f3bf99;
+    transition: 0.3s;
 }
